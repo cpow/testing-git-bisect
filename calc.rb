@@ -12,4 +12,8 @@ class Calc
   def self.div(x, y)
     x / y
   end
+
+  def self.multi(x, y)
+    x * y
+  end
 end
