@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 class Calc
-  def add(x, y)
-    added = x + y
-    puts "result #{added}"
+  def self.add(x, y)
+    return x + y
   end
 end
