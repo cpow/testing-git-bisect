@@ -6,4 +6,8 @@ describe '::Calc#add' do
   it 'should add two numbers together' do
     expect(Calc.add(1, 2)).to eq(3)
   end
+
+  it 'should subtract two numbers' do
+    expect(Calc.sub(2, 1)).to eq(1)
+  end
 end
