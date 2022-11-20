@@ -8,4 +8,8 @@ class Calc
   def self.sub(x, y)
     x - y
   end
+
+  def self.div(x, y)
+    x / y
+  end
 end
