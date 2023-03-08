@@ -5,6 +5,10 @@ class Calc
     x + y
   end
 
+  def self.sum(arr)
+    arr.map(&:to_i).reduce(0, :+)
+  end
+
   def self.sub(x, y)
     x - y
   end
