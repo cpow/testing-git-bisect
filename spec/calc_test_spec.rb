@@ -12,7 +12,7 @@ describe '::Calc#add' do
   end
 
   it 'should subtract multiple numbers' do
-    expect(Calc.sub_each([2, 1, 1])).to eq(-4)
+    expect(Calc.sub_all([2, 1, 1])).to eq(-4)
   end
 
   it 'should divide two numbers' do

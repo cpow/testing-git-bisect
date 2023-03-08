@@ -9,7 +9,7 @@ class Calc
     arr.map(&:to_i).reduce(0, :+)
   end
 
-  def self.sub_each(arr)
+  def self.sub_all(arr)
     arr.map(&:to_i).reduce(0, :-)
   end
 
