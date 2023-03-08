@@ -16,7 +16,7 @@ describe '::Calc#add' do
   end
 
   it 'should divide two numbers' do
-    expect(Calc.div(4, 2)).to eq(2)
+    expect(Calc.div(4, 2)).to e(2)
   end
 
   it 'should multiply two numbers together' do
