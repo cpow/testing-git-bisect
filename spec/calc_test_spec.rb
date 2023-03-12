@@ -11,6 +11,10 @@ describe '::Calc#add' do
     expect(Calc.sub(2, 1)).to eq(1)
   end
 
+  it 'should subtract multiple numbers' do
+    expect(Calc.sub_all([2, 1, 1])).to eq(-4)
+  end
+
   it 'should divide two numbers' do
     expect(Calc.div(4, 2)).to eq(3)
   end
